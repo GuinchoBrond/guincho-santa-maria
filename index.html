@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Guincho 24h em Santa Maria RS | Atendimento rápido</title>
+<title>Guincho 24h em Santa Maria RS | Atendimento imediato</title>
 
 <meta name="description" content="Guincho 24 horas em Santa Maria RS. Atendimento rápido para pane mecânica, pane seca e acidentes. Ligue agora.">
 
@@ -13,65 +13,65 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   background: #f5f5f5;
-  color: #333;
-}
-
-.container {
-  max-width: 800px;
-  margin: auto;
-  background: white;
-  padding: 20px;
 }
 
 /* HERO */
 .hero {
-  background: #111;
+  background: url('https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2') center/cover;
   color: white;
-  padding: 30px 20px;
   text-align: center;
+  padding: 60px 20px;
 }
 
 .hero h1 {
-  margin: 0;
-  font-size: 26px;
+  font-size: 28px;
 }
 
-.hero p {
-  margin: 10px 0 20px;
-}
-
-/* BOTÃO */
 .btn {
-  display: block;
   background: #28a745;
   color: white;
-  text-align: center;
-  padding: 15px;
-  font-size: 18px;
+  padding: 15px 25px;
+  display: inline-block;
+  margin-top: 20px;
   text-decoration: none;
   border-radius: 5px;
+  font-size: 18px;
 }
 
-.btn:hover {
-  background: #218838;
+/* CONTAINER */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: white;
 }
 
-/* SERVIÇOS */
-.servicos {
+/* GRID */
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 15px;
 }
 
 .card {
   background: #f9f9f9;
   padding: 10px;
   border-radius: 5px;
+  text-align: center;
 }
 
-/* TITULOS */
-h2 {
-  margin-top: 40px;
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* CTA */
+.cta {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 30px;
 }
 
 /* BOTÃO FIXO */
@@ -83,15 +83,8 @@ h2 {
   color: white;
   text-align: center;
   padding: 15px;
-  font-size: 18px;
   text-decoration: none;
-}
-
-footer {
-  margin-top: 30px;
-  font-size: 14px;
-  color: #777;
-  text-align: center;
+  font-size: 18px;
 }
 </style>
 </head>
@@ -100,8 +93,8 @@ footer {
 
 <!-- HERO -->
 <div class="hero">
-<h1>🚗 Guincho 24h em Santa Maria RS</h1>
-<p>Atendimento imediato em toda a cidade para pane mecânica, pane seca e acidentes</p>
+<h1>Guincho 24h em Santa Maria RS</h1>
+<p>Atendimento imediato para pane mecânica, pane seca e acidentes</p>
 <a class="btn" href="tel:+555528880075">📞 Ligar agora</a>
 </div>
 
@@ -109,14 +102,60 @@ footer {
 
 <h2>Serviços de guincho</h2>
 
-<div class="servicos">
-<div class="card">🚗 Reboque de veículos</div>
-<div class="card">🔧 Pane mecânica</div>
-<div class="card">⛽ Pane seca</div>
-<div class="card">🚨 Atendimento emergencial</div>
-<div class="card">🏍️ Guincho para motos</div>
-<div class="card">🚛 Transporte de veículos</div>
+<div class="grid">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2">
+<p>Reboque de veículos</p>
 </div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1597007722037-0a3c6f9f8d55">
+<p>Guincho para motos</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1581091012184-5c0f2f9b8b1c">
+<p>Pane mecânica</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e">
+<p>Pane seca</p>
+</div>
+</div>
+
+<!-- CTA -->
+<div class="cta">
+<h2>Precisa de guincho agora?</h2>
+<p>Atendimento rápido em Santa Maria RS</p>
+<a class="btn" href="tel:+555528880075">📞 Ligar agora</a>
+</div>
+
+<h2>Por que escolher nosso guincho?</h2>
+
+<div class="grid">
+<div class="card">⚡ Atendimento rápido</div>
+<div class="card">🛡️ Segurança total</div>
+<div class="card">🕒 Atendimento 24h</div>
+<div class="card">💳 Pagamento facilitado</div>
+</div>
+
+<!-- CTA -->
+<div class="cta">
+<h2>Estamos prontos para atender você</h2>
+<a class="btn" href="tel:+555528880075">📞 Ligar agora</a>
+</div>
+
+<h2>Perguntas frequentes</h2>
+
+<h3>Quanto custa um guincho em Santa Maria?</h3>
+<p>O valor depende da distância e do tipo de serviço.</p>
+
+<h3>Quanto tempo demora o atendimento?</h3>
+<p>Normalmente chegamos entre 15 e 40 minutos.</p>
+
+<h3>O atendimento é 24 horas?</h3>
+<p>Sim, atendemos 24 horas todos os dias.</p>
 
 <h2>Atendimento por bairros</h2>
 
@@ -128,19 +167,10 @@ footer {
 <li><a href="/guincho-passo-dareia.html">Guincho em Passo D'Areia Santa Maria RS</a></li>
 </ul>
 
-<h2>Atendimento rápido em Santa Maria</h2>
-
-<p>Atendemos todos os bairros de Santa Maria RS com rapidez e segurança. Se seu veículo apresentou problema, entre em contato agora.</p>
-
 <p><strong>📞 (55) 2888-0075</strong></p>
-
-<footer>
-<p>Guincho 24h Santa Maria RS</p>
-</footer>
 
 </div>
 
-<!-- BOTÃO FIXO -->
 <a class="call-fixed" href="tel:+555528880075">📞 Ligar agora</a>
 
 </body>
